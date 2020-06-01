@@ -8,12 +8,12 @@ An application where one can sign into my application,register an account if he 
 # How to Use
 On signing into the website:
 
-The user can create his profile with his or her profile pic on it
-The user can create his or her Bio in his profile
-The user can see various pictures posted by various users
-The user can like or leave a comment on the pictures
-The user can post pictures which he likes and other people may comment on it and also like it
-the link to my repository is https://github.com/Kennedy128/insta-replica
+* The user can create his profile with his or her profile pic on it
+* The user can create his or her Bio in his profile
+* The user can see various pictures posted by various users
+* The user can like or leave a comment on the pictures
+* The user can post pictures which he likes and other people may comment on it and also like it
+* the link to my repository is https://github.com/Kennedy128/insta-replica
 
 # Technologies Used
 * HTML and CSS
