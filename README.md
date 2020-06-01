@@ -15,7 +15,7 @@ On signing into the website:
 * The user can post pictures which he likes and other people may comment on it and also like it
 * the user can also search for other users
 * the link to my repository is https://github.com/Kennedy128/insta-replica
-* my admin username is Kenny and password is Alfred128
+* my admin username is kenny and password is Alfred128
 # Technologies Used
 * HTML and CSS
 * Python
