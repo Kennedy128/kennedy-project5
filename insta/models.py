@@ -1,6 +1,7 @@
 from django.db import models
 
 from django.contrib.auth.models import User
+from cloudinary.models import CloudinaryField
 # Create your models here.
 
 class Profile(models.Model):
@@ -9,6 +10,7 @@ class Profile(models.Model):
     '''
     user=models.OneToOneField(User,on_delete=models.CASCADE)
     profile_pic=models.ImageField(upload_to = 'images/')
+    profile_pic = CloudinaryField('image')
     bio=models.CharField(max_length = 100)
 
     def __str__(self):
@@ -37,6 +39,7 @@ class Image(models.Model):
     image class to define image objects
     '''
     image=models.ImageField(upload_to = 'images/')
+    image = CloudinaryField('image')
     name=models.CharField(max_length = 100)
     caption=models.CharField(max_length = 100,blank=True)
     profile=models.ForeignKey(Profile,on_delete=models.CASCADE)
