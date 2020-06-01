@@ -13,6 +13,7 @@ On signing into the website:
 * The user can see various pictures posted by various users
 * The user can like or leave a comment on the pictures
 * The user can post pictures which he likes and other people may comment on it and also like it
+* the user can also search for other users
 * the link to my repository is https://github.com/Kennedy128/insta-replica
 
 # Technologies Used
