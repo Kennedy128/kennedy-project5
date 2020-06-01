@@ -39,7 +39,7 @@ To access this application on your command line, you need to clone it git clone 
 to acces my live deployed site visit https://kenny-instagram.herokuapp.com/accounts/login/?next=/
 
 # Known Bugs
-no known bugs but you will need to create your profile before uploading images
+no known bugs but you will need to create your profile before uploading images.incase of any query or questions contact me at kennedymbithi12@gmail.com
 
 
 # Licence

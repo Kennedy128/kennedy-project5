@@ -8,14 +8,14 @@ class ImageTestClass(TestCase):
     test class to test methods of the  image class
     '''
     def setUp(self):
-        self.profile=Profile(user="kennedy",profile_pic="pic",bio="person")
+        self.profile=Profile(user="Kennedy",profile_pic="pic",bio="person")
         self.image=Image(image="image",name="image",caption="nice",profile=self.profile)
     def test_save_method(self):
         self.image.save_image()
         images = Image.objects.all()
         self.assertTrue(len(images) > 0) 
 
-    def test_delete_method(self):L
+    def test_delete_method(self):
         self.image.delete_image()
         images=Image.objects.all()
         self.assertTrue(len(images) > 0)        
@@ -25,7 +25,7 @@ class ProfileTestClass(TestCase):
     test class to test methods of the profile class
     '''
     def setUp(self):
-        self.profile=Profile(user="kennedy",profile_pic="pic",bio="person")
+        self.profile=Profile(user="Kennedy",profile_pic="pic",bio="person")
 
     def test_save_method(self):
         self.profile.save_profile()
