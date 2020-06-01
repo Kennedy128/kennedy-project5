@@ -35,6 +35,7 @@ Prerequisites The user will require git, django, postgres and python3.6 installe
 
 # Installation
 To access this application on your command line, you need to clone it git clone https://github.com/Kennedy128/insta-replica.git
+to acces my live deployed site visit https://kenny-instagram.herokuapp.com/accounts/login/?next=/
 
 # Known Bugs
 no known bugs but you will need to create your profile before uploading images
